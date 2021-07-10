@@ -17,6 +17,14 @@ public class Main {
         String numberString = "250.55";
         numberString = numberString + "49.95";
         System.out.println("number string, " + numberString);
+        String lastString = "10";
+        int myInt = 50;
+        lastString = lastString + myInt;
+        System.out.println("Last string is = " + lastString);
+        double doubleNumber = 120.47d;
+        lastString = lastString + doubleNumber;
+        System.out.println("Last string is = " + lastString);
+        // THE ABOVE CODE IS INEFFICIENT. A BETTER WAY TO ADD TO A STRING IS TO USE A STRING BUFFER
 
     }
 }
