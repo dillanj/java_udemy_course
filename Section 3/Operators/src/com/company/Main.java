@@ -41,5 +41,10 @@ public class Main {
             System.out.println("It is not an Alien!");
         }
 
+        if(isAlien)
+            System.out.println("It is not an Alien (without code block)");
+        else
+            System.out.println("It not an alient (without code block)");
+
     }
 }
