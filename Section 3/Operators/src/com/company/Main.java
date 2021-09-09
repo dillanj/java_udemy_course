@@ -57,10 +57,10 @@ public class Main {
 //        }
 
         /// OPERATOR CHALLENGE
-        double a = 20.00; // 1
-        double b = 80.00; // 2
-        double result = (a + b) * 100.00; // 3
-        double remainder = result % 40.00; // 4
+        double a = 20.00d; // 1
+        double b = 80.00d; // 2
+        double result = (a + b) * 100.00d; // 3
+        double remainder = result % 40.00d; // 4
         boolean noRemainder = remainder == 0 ? true : false; // 5
         System.out.println("has Remainder: " + noRemainder); // 6
         if(!noRemainder){ // 7
